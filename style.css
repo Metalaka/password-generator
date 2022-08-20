@@ -1,0 +1,122 @@
+﻿body {
+    font-size: 14px;
+    background: #333333;
+}
+
+body, input, button, select {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 15px auto;
+    padding: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+section {
+    margin: 30px 0;
+    padding: 0 50px;
+}
+
+a {
+    color: #555555;
+}
+
+::selection {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* header */
+header {
+    margin: 20px 40px;
+    padding: 0 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logo-title {
+    padding: 16px;
+}
+
+/* configuration */
+#length {
+    width: 66%;
+}
+
+.option label {
+    display: flex;
+    margin: 14px;
+}
+
+.option label .column {
+    width: 50%;
+}
+
+.option label .column span {
+    color: #555555;
+}
+
+/* actions */
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+    
+
+    color: #555555;
+    border-radius: 5px;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.button:hover, .button:active, .button:focus {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+
+.btn-action {
+    margin: 0 15px;
+    line-height: 36px;
+    width: 200px;
+}
+
+/* result */
+.result label {
+    display: flex;
+    flex-direction: column;
+}
+
+.result label span {
+    align-self: center;
+    font-size: 1.3em;
+}
+
+.result input {
+    align-self: center;
+    margin-top: 20px;
+
+    width: 66%;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    text-align: center;
+   
+    color: #555555;
+    border-radius: 5px;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    background-color: rgba(0, 0, 0, 0.03);
+
+    outline: none;
+}
+
+/* footer */
+footer {
+    text-align: center;
+}
