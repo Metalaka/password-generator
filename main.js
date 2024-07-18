@@ -101,7 +101,7 @@ function getConfiguration () {
 
 // Initialize events
 (function () {
-  $("length").value = 16
+  $("length").value = 32
 
   $('generate-password').addEventListener("click", (e) => {
     e.preventDefault()
